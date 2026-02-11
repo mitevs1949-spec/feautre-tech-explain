@@ -125,6 +125,23 @@
             text-shadow: 0 0 10px var(--accent);
         }
 
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--accent);
+            text-decoration: none;
+            border: 1px solid var(--accent);
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            font-family: 'Orbitron', sans-serif;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: var(--accent);
+            color: #000;
+        }
+
     </style>
 </head>
 <body>
@@ -132,10 +149,17 @@
     <header>
         <h1>FUTURE TECH</h1>
         <div class="subtitle">Explained for the <span class="glow">2026</span> Era</div>
+        <a href="resources/index.html" class="btn">EXPLORE RESOURCE HUB</a>
     </header>
 
     <div class="container">
         <div class="post-list" id="post-list">
+
+            <a href="posts/the-2026-technological-singularity-a-deep-research-paper.html" class="post-card">
+                <div class="post-date">Feb 11, 2026</div>
+                <h2 class="post-title">The 2026 Technological Singularity: A Deep Research Paper</h2>
+                <p class="post-excerpt">An extensive 2500-word equivalent analysis of the current convergence between BCI, Quantum Computing, and Agentic AI.</p>
+            </a>
 
             <a href="posts/ai-ethics-navigating-the-singularity.html" class="post-card">
                 <div class="post-date">Feb 11, 2026</div>

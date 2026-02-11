@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 2026 Tech Resource Hub | Future Tech Explained</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Inter:wght@300;400;700&display=swap');
+        :root { --bg: #050505; --accent: #00ffff; --text: #eee; --card: #111; }
+        body { margin: 0; background-color: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; }
+        header { padding: 60px 20px; text-align: center; border-bottom: 1px solid #222; }
+        h1 { font-family: 'Orbitron', sans-serif; font-size: 2.5rem; letter-spacing: 5px; color: #fff; }
+        .container { max-width: 1000px; margin: 50px auto; padding: 0 20px; }
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .resource-card { background: var(--card); border: 1px solid #222; padding: 25px; border-radius: 12px; }
+        .resource-card h3 { font-family: 'Orbitron', sans-serif; color: var(--accent); margin-top: 0; }
+        .tag { display: inline-block; padding: 4px 10px; background: rgba(0,255,255,0.1); border: 1px solid var(--accent); font-size: 0.7rem; border-radius: 4px; margin-bottom: 10px; }
+        .back-link { text-decoration: none; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="back-link">&larr; Back to Home</a>
+        <h1>2026 RESOURCE HUB</h1>
+        <p>The definitive toolkit for the modern technologist.</p>
+    </header>
+    <div class="container">
+        <h2>🛠️ Recommended Tools & Platforms</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <div class="tag">AI AGENTS</div>
+                <h3>OpenClaw Framework</h3>
+                <p>The premier open-source personal AI assistant framework for local-first automation.</p>
+            </div>
+            <div class="resource-card">
+                <div class="tag">DEVELOPMENT</div>
+                <h3>Ollama</h3>
+                <p>Run large language models like Llama 3 and Mistral locally on your machine for free.</p>
+            </div>
+            <div class="resource-card">
+                <div class="tag">PRIVACY</div>
+                <h3>SearXNG</h3>
+                <p>A privacy-respecting, hackable metasearch engine you can host via Docker.</p>
+            </div>
+            <div class="resource-card">
+                <div class="tag">BIOTECH</div>
+                <h3>Benchling</h3>
+                <p>Cloud-based platform for biological research and CRISPR 2.0 design.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
