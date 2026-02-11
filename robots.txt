@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mitevs1949-spec.github.io/feautre-tech-explain/sitemap.xml
